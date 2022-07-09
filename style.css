@@ -65,6 +65,8 @@ body {
     background-color: rgb(172, 241, 218);
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 10px;
     border-radius: 5px;
 
@@ -78,9 +80,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 5px;
-
-
 }
 
 .box-3 {
@@ -89,6 +91,8 @@ body {
     background-color: rgb(150, 243, 221);
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 10px;
     border-radius: 5px;
 
@@ -96,12 +100,65 @@ body {
 
 .taka {
     width: 10%;
-    box-shadow: 10px 10px 5px rgb(245, 216, 216);
-    background-color: white;
+    box-shadow: 10px 10px 5px rgb(247, 243, 243);
+    background-color: rgb(233, 229, 229);
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 100px;
+    margin-top: 100px;
     padding: 10px 5px;
     border-radius: 5px;
-    border-style: hidden;
+    border: 5px solid rgb(245, 110, 110);
     text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: 200px;
+
+}
+
+.footer-c {
+
+    color: rgb(255, 21, 0);
+    font-family: 'Lobster';
+
+
+}
+
+.footer-b {
+    color: white;
+}
+
+.footer-d {
+    padding-top: 40px;
+}
+
+.box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9%;
+    background-color: bisque;
+    padding: 100px 50px
+}
+
+.form-box input {
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(187, 183, 183)
+}
+
+.form-box button {
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
 }
